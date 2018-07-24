@@ -109,6 +109,20 @@ blockquote:before{
 	border:1px solid #EBEBEB;
 }
 
+.homepage-list-items{
+        margin-bottom: 14px;
+        list-style:square;
+}
+
+.meettheteam-list-items{
+        margin-bottom: 14px;
+       
+        font-weight:bold;
+     list-style: disc outside none;
+display: list-item;
+margin-left: 1.5em;
+}
+
 
 /* --- Section --- */
 .section {
@@ -178,7 +192,7 @@ blockquote:before{
 }
 
 .main-button.icon-button:after {
-	content:"\f178";
+	content:"\f061";
 	font-family:FontAwesome;
 	position:absolute;
 	width: 30px;
@@ -454,12 +468,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	position:absolute;
 	left:0;
 	top:0;
-	width:80px;
-	height:80px;
-	line-height:80px;
+	width:70px;
+	height:70px;
+	line-height:70px;
 	text-align:center;
 	border-radius: 50%;
-	font-size:30px;
+	font-size:25px;
 	border:1px solid #EBEBEB;
 	color:#AA0004;
 }
